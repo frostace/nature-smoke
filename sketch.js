@@ -11,7 +11,8 @@ var particleNum = 10000;
 var fieldUpdateSpeed = 0.0004;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  // createCanvas(windowWidth, windowHeight);
+  createCanvas(800, 600);
   // background(0);
   cols = floor(width / scl);
   rows = floor(height / scl);

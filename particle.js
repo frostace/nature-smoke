@@ -23,11 +23,8 @@ function Particle() {
   }
 
   this.show = function() {
-<<<<<<< HEAD
     stroke(0, 50);
-=======
     stroke(255, 5);
->>>>>>> c6cc593b09072eb537346eed707ec41d96567f68
     strokeWeight(1);
     // point(this.pos.x, this.pos.y);
     line(this.pos.x, this.pos.y, this.prevPos.x, this.prevPos.y);

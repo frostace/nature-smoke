@@ -7,12 +7,13 @@ var zoff = 0;   // define the 3rd dimension as time
 // var fr;
 var particles = [];
 var flowfield;
-var particleNum = 1000;
+var particleNum = 10000;
 var fieldUpdateSpeed = 0.0004;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(0);
+//   createCanvas(800, 600);
+  // background(0);
   cols = floor(width / scl);
   rows = floor(height / scl);
   // fr = createP('');

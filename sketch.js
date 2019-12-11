@@ -29,10 +29,10 @@ function setup() {
 function draw() {
   // background(255);
   var yoff = 0;
-  for (var y = 0; y < cols; y++) {
+  for (var y = 0; y < rows; y++) {
     var xoff = 0;
-    for (var x = 0; x < rows; x++) {
-      var index = x + y * rows;
+    for (var x = 0; x < cols; x++) {
+      var index = x + y * cols;
       var angle = noise(xoff, yoff, zoff) * TWO_PI * 4;   // use perlin noise to generate a random angle
       var v = p5.Vector.fromAngle(angle);             // generate vector with the random angle
       v.setMag(1);

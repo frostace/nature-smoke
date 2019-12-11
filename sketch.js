@@ -12,7 +12,7 @@ var fieldUpdateSpeed = 0.0004;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(0);
+  // background(0);
   cols = floor(width / scl);
   rows = floor(height / scl);
   // fr = createP('');
